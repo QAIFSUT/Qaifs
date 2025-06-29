@@ -1,6 +1,6 @@
 {
   "name": "qaifs-website",
-  "homepage": "https://gitname.github.io/qaifs-website",
+  "homepage": "https://qaifsut.github.io/qaifs-website",
   "version": "1.0.0",
   "description": "A modern static website built with React",
   "main": "index.js",
