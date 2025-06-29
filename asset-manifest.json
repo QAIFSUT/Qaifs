@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/qaifs/static/css/main.8115dea7.css",
-    "main.js": "/qaifs/static/js/main.ec5d619b.js",
-    "index.html": "/qaifs/index.html",
-    "main.8115dea7.css.map": "/qaifs/static/css/main.8115dea7.css.map",
-    "main.ec5d619b.js.map": "/qaifs/static/js/main.ec5d619b.js.map"
+    "main.css": "/Qaifs/static/css/main.8115dea7.css",
+    "main.js": "/Qaifs/static/js/main.983834bd.js",
+    "index.html": "/Qaifs/index.html",
+    "main.8115dea7.css.map": "/Qaifs/static/css/main.8115dea7.css.map",
+    "main.983834bd.js.map": "/Qaifs/static/js/main.983834bd.js.map"
   },
   "entrypoints": [
     "static/css/main.8115dea7.css",
-    "static/js/main.ec5d619b.js"
+    "static/js/main.983834bd.js"
   ]
 }
