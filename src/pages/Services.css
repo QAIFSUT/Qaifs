@@ -1,0 +1,141 @@
+.services {
+  min-height: 100vh;
+}
+
+/* Services Hero Section */
+.services-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+}
+
+.services-subtitle {
+  font-size: 1.3rem;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.service-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.service-features {
+  list-style: none;
+  text-align: left;
+}
+
+.service-features li {
+  padding: 0.5rem 0;
+  color: #555;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.service-features li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+/* Projects Section */
+.projects-section {
+  background: #f8f9fa;
+}
+
+.coming-soon-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.coming-soon-content {
+  padding: 4rem 2rem;
+}
+
+.coming-soon-icon {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.coming-soon-content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.coming-soon-content p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.coming-soon-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* CTA Section */
+.services-cta {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .service-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .coming-soon-content {
+    padding: 3rem 1.5rem;
+  }
+  
+  .coming-soon-content h3 {
+    font-size: 2rem;
+  }
+} 
